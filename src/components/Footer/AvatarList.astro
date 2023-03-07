@@ -4,7 +4,7 @@ type Props = {
 	path: string;
 };
 const { path } = Astro.props;
-const resolvedPath = `examples/docs/${path}`;
+const resolvedPath = `${path}`;
 const url = `https://api.github.com/repos/zztkm/book.vlang/commits?path=${resolvedPath}`;
 const commitsURL = `https://github.com/zztkm/book.vlang/commits/main/${resolvedPath}`;
 
