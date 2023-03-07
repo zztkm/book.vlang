@@ -1,5 +1,5 @@
 export const SITE = {
-	title: 'The V Programming Language',
+	title: 'Learn V with tests',
 	description: 'An unofficial introduction to the V language.',
 	defaultLanguage: 'ja-jp',
 } as const;
