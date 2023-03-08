@@ -5,8 +5,7 @@ description: "Vをインストールする手順を紹介する"
 
 Vの公式インストール手順は[こちら](https://github.com/vlang/v#installing-v-from-source)から確認できます。
 
-以下の手順は公式より一部抜粋したものです。
-(引用元: https://github.com/vlang/v#installing-v-from-source)
+以下の手順は公式より一部抜粋したものです。(引用元: https://github.com/vlang/v#installing-v-from-source)
 
 ```shell
 git clone https://github.com/vlang/v
