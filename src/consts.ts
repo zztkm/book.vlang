@@ -37,18 +37,16 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	ja: {
-		'Section Header': [
-			{ text: 'Introduction', link: 'ja/introduction' },
-			{ text: 'Page 2', link: 'ja/page-2' },
-			{ text: 'Page 3', link: 'ja/page-3' },
+		'V言語基礎': [
+			{ text: 'はじめに', link: 'ja/introduction' },
+			{ text: 'Vをインストールする', link: 'ja/install-v' },
 		],
-		'Another Section': [{ text: 'Page 4', link: 'ja/page-4' }],
+		'その他': [{ text: 'Page 4', link: 'ja/page-4' }],
 	},
 	en: {
 		'Section Header': [
 			{ text: 'Introduction', link: 'en/introduction' },
 			{ text: 'Page 2', link: 'en/page-2' },
-			{ text: 'Page 3', link: 'en/page-3' },
 		],
 		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},

@@ -3,23 +3,33 @@ title: "はじめに"
 description: "Docs intro"
 ---
 
-**Welcome to Astro!**
+![v-mascot](https://raw.githubusercontent.com/vlang/v-mascot/add-mascot/veasel.svg)
+[vlang/v-mascot](https://github.com/vlang/v-mascot) より
 
-This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
 
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+Vは、保守性の高いソフトウェアを開発するための、シンプルで高速、安全なコンパイル済みの汎用プログラミング言語です。
+Vはビルトインのテストフレームワークを持っていて、かつ学習が簡単な言語なので
 
-## Getting Started
+GoとVの比較をした文書がGitHubのWikiにありますのでそちらも参考にしてください！
+https://github.com/vlang/v/wiki/V-for-Go-developers
 
-To get started with this theme, check out the `README.md` in your new project directory. It provides documentation on how to use and customize this template for your own project. Keep the README around so that you can always refer back to it as you build.
+## 背景
 
-Found a missing feature that you can't live without? Please suggest it [on our Discord](https://astro.build/chat) and even consider adding it yourself on GitHub! Astro is an open source project and contributions from developers like you are how we grow!
+このサイトは[テスト駆動開発でGO言語を学びましょう](https://andmorefine.gitbook.io/learn-go-with-tests/)というサイトに触発されて構築を開始しました。
+`テスト駆動開発でGO言語を学びましょう`はテストを書きながらGo言語（それとTDD）について学ぶことができるサイトです。
 
-Good luck out there, Astronaut. 🧑‍🚀
+上のサイトではGoを学びますが、Goのようなシンプルな構文を持ち、ビルトインのテストフレームワークを持っているVであれば同じようにテストを通して学習できると考えました。
+
+構成など多分に真似させて頂いています。素晴らしいGo言語の入門書に感謝しています。
+
+## 誰のため？
+
+- V言語に興味のある方
+- すでにV言語をある程度知っているが、もっとテストをしてみたい方
+
+## 必要なもの
+
+- PC
+- V 言語
+- テキストエディター
+- ターミナルの使用に慣れている方
