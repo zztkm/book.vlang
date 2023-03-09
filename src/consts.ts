@@ -40,14 +40,13 @@ export const SIDEBAR: Sidebar = {
 		'V言語基礎': [
 			{ text: 'はじめに', link: 'ja/introduction' },
 			{ text: 'Vをインストールする', link: 'ja/install-v' },
+			{ text: 'Hello, World!', link: 'ja/hello-world' },
 		],
 		'その他': [{ text: 'Page 4', link: 'ja/page-4' }],
 	},
 	en: {
 		'Section Header': [
 			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Page 2', link: 'en/page-2' },
 		],
-		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},
 };

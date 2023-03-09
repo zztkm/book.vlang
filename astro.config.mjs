@@ -11,4 +11,8 @@ export default defineConfig({
 		react(),
 	],
 	site: `https://astro.build`,
+	markdown: {
+		// 'shiki'（デフォルト）、'prism'、またはハイライトを無効にする場合は false を指定します
+		syntaxHighlight: 'prism',
+	},
 });
